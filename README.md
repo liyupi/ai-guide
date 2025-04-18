@@ -20,6 +20,10 @@ permalink: /
 >
 > ![img](https://pic.yupi.icu/yuyi/1739512392127-5da4baac-bcf8-40fc-83da-68c195853367.png)
 
+## 精选资源
+
+[【最新】OpenAI开源34页Agents最佳搭建实践指南：从概念到实战](https://wwee.lanzouu.com/iSkfY2twmvcj)
+
 ## 精选文章
 
 - [2 分钟学会 DeepSeek API，竟然比官方更好用！](/Deepseek/DeepSeek使用指南/2分钟学会%20DeepSeek%20API，竟然比官方更好用！.md)
