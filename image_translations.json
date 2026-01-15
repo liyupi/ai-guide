@@ -1,0 +1,561 @@
+[
+  {
+    "image_path": "image/join_us.png",
+    "chinese_text": [
+      "开始你的编程学习之旅",
+      "360元/年",
+      "¥480元/年",
+      "学编程就上编程导航",
+      "微信扫描二维码"
+    ],
+    "english_translations": {
+      "开始你的编程学习之旅": "Start your programming learning journey",
+      "360元/年": "360 yuan/year",
+      "¥480元/年": "¥480 yuan/year",
+      "学编程就上编程导航": "Learn programming on Programming Navigator",
+      "微信扫描二维码": "WeChat scan QR code"
+    },
+    "analysis": {
+      "has_chinese": true,
+      "chinese_text": [
+        "开始你的编程学习之旅",
+        "360元/年",
+        "¥480元/年",
+        "学编程就上编程导航",
+        "微信扫描二维码"
+      ],
+      "image_type": "promotion",
+      "description": "An image advertising a programming learning journey for 360 yuan/year, down from 480 yuan/year, with a QR code for WeChat scan.",
+      "background_color": "light orange",
+      "text_positions": [
+        {
+          "text": "开始你的编程学习之旅",
+          "area": "top left of the main card"
+        },
+        {
+          "text": "360",
+          "area": "center left, large red text"
+        },
+        {
+          "text": "元/年",
+          "area": "next to 360"
+        },
+        {
+          "text": "¥480元/年",
+          "area": "smaller, lighter text next to the current price"
+        },
+        {
+          "text": "学编程就上编程导航",
+          "area": "button below the price"
+        },
+        {
+          "text": "微信扫描二维码",
+          "area": "below the QR code"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "image/coupon.jpg",
+    "chinese_text": [
+      "程序员鱼皮",
+      "给您赠送一张优惠券",
+      "立减",
+      "2026/01/20 23:00 后失效",
+      "长按图片识别二维码",
+      "开始编程之旅",
+      "编程导航"
+    ],
+    "english_translations": {
+      "程序员鱼皮": "Programmer Yu Pi",
+      "给您赠送一张优惠券": "Presents you with a coupon",
+      "立减": "Instant discount",
+      "2026/01/20 23:00 后失效": "Expires after 2026/01/20 23:00",
+      "长按图片识别二维码": "Long press image to scan QR code",
+      "开始编程之旅": "Start your programming journey",
+      "编程导航": "Programming Navigation"
+    },
+    "analysis": {
+      "has_chinese": true,
+      "chinese_text": [
+        "程序员鱼皮",
+        "给您赠送一张优惠券",
+        "立减",
+        "2026/01/20 23:00 后失效",
+        "长按图片识别二维码",
+        "开始编程之旅",
+        "编程导航"
+      ],
+      "image_type": "promotion",
+      "description": "A promotional image with a voucher offering a 36 RMB discount, and information about a programming navigation platform. It features a QR code for further interaction.",
+      "background_color": "red",
+      "text_positions": [
+        {
+          "text": "程序员鱼皮",
+          "area": "top left, next to a profile picture"
+        },
+        {
+          "text": "给您赠送一张优惠券",
+          "area": "top left, below '程序员鱼皮' and next to a coupon icon"
+        },
+        {
+          "text": "立减",
+          "area": "middle, next to '36'"
+        },
+        {
+          "text": "2026/01/20 23:00 后失效",
+          "area": "middle, below the '36' discount"
+        },
+        {
+          "text": "长按图片识别二维码",
+          "area": "bottom left, above '开始编程之旅'"
+        },
+        {
+          "text": "开始编程之旅",
+          "area": "bottom left, below '长按图片识别二维码'"
+        },
+        {
+          "text": "编程导航",
+          "area": "bottom left, below '开始编程之旅'"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "image/11_11.png",
+    "chinese_text": [
+      "程序员鱼皮",
+      "给您赠送一张优惠券",
+      "立减",
+      "后失效",
+      "长按图片识别二维码",
+      "开始编程之旅",
+      "编程导航"
+    ],
+    "english_translations": {
+      "程序员鱼皮": "Programmer Yu Pi",
+      "给您赠送一张优惠券": "Give you a coupon",
+      "立减": "Instant discount",
+      "后失效": "Expires after",
+      "长按图片识别二维码": "Long press image to recognize QR code",
+      "开始编程之旅": "Start coding journey",
+      "编程导航": "Programming Navigation"
+    },
+    "analysis": {
+      "has_chinese": true,
+      "chinese_text": [
+        "程序员鱼皮",
+        "给您赠送一张优惠券",
+        "立减",
+        "后失效",
+        "长按图片识别二维码",
+        "开始编程之旅",
+        "编程导航"
+      ],
+      "image_type": "Other",
+      "description": "An image with text and a QR code, featuring a person, and a discount offer. The dominant colors are orange and red, with some white text and elements.",
+      "background_color": "Orange",
+      "text_positions": [
+        {
+          "text": "程序员鱼皮",
+          "area": "top right"
+        },
+        {
+          "text": "给您赠送一张优惠券",
+          "area": "top middle"
+        },
+        {
+          "text": "立减",
+          "area": "middle right"
+        },
+        {
+          "text": "后失效",
+          "area": "middle"
+        },
+        {
+          "text": "长按图片识别二维码",
+          "area": "bottom left"
+        },
+        {
+          "text": "开始编程之旅",
+          "area": "bottom left"
+        },
+        {
+          "text": "编程导航",
+          "area": "bottom left"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "image/sdk_project.png",
+    "chinese_text": [
+      "编程导航教程",
+      "搜索内容",
+      "首页",
+      "埋点 SDK 项目实战",
+      "项目教程",
+      "会员免费",
+      "埋点 SDK 项目实战",
+      "文字教程",
+      "视频教程",
+      "项目实战",
+      "作者:",
+      "程序喵",
+      "继续学习",
+      "分享",
+      "您已是会员,在",
+      "前可免费学(价值¥",
+      "开发环境",
+      "流程设计",
+      "代码结构设计",
+      "三方库依赖",
+      "对外接口设计",
+      "日志模块实现",
+      "上报协议设计",
+      "介绍",
+      "文字教程",
+      "视频教程",
+      "提问",
+      "笔记",
+      "推荐课程",
+      "大家好,我是程序喵。",
+      "数据库设计与使用",
+      "为什么要做客户端SDK?",
+      "如何发起http请求",
+      "之前说过要带大家实战一个C++项目,想了好久,中间也和鱼皮大佬多次讨论,最终决定做一个埋点相关的客户端SDK。",
+      "加解密实现",
+      "多线程开发",
+      "上报模块实现",
+      "公共信息获取",
+      "整体功能组装",
+      "结束语",
+      "项目简历写法",
+      "我看过很多校招生C++简历中的项目经验,几乎清一色的Web Server,但其实现在C++在后端领域岗位相对比较少,貌似只有量化领域和某些游戏公司在使",
+      "用C++做后端。",
+      "如果大家想做后端方向的话,我建议去学习Go或者Java,可能会比C++更适合一些。",
+      "C++现在主要应用在嵌入式领域、人工智能工业化、游戏等方向,很多移动端应用底层为了跨平台,也会使用爱视频能力、人脸识",
+      "别能力等,都是使用C++开发,然后编译出可以在多平台运行的SDK,给业务方程序员使用。",
+      "很多企业也会用QTC++做桌面端应用,这种岗位需要了解QT的相关API使用,甚至是原理,但想做合格的桌面端程序,还是要深入学习C++才行。",
+      "所以,虽然很多人在唱衰客户端,但唱衰的很多都是客户端开发页面的程序员,因为现在比较流行大前端,页面很多可以用Flutter等跨平台相关的组件或前端",
+      "语言开发,不太能唱衰的到C++。",
+      "而且在大企业中,相关的程序性能至关重要,想要高性能,几乎都要用到C++或C,当然,Rust也行,但现在Rust在国内岗位相当少,盲目走Rust方向风险比",
+      "较高。"
+    ],
+    "english_translations": {
+      "编程导航教程": "Programming Navigation Tutorial",
+      "搜索内容": "Search Content",
+      "首页": "Home",
+      "埋点 SDK 项目实战": "Tracking SDK Project Practice",
+      "项目教程": "Project Tutorial",
+      "会员免费": "Members Free",
+      "文字教程": "Text Tutorial",
+      "视频教程": "Video Tutorial",
+      "项目实战": "Project Practice",
+      "作者:": "Author:",
+      "程序喵": "Programmer Cat",
+      "继续学习": "Continue Learning",
+      "分享": "Share",
+      "您已是会员,在": "You are already a member, free until",
+      "前可免费学(价值¥": "Free (value ¥",
+      "开发环境": "Development Environment",
+      "流程设计": "Process Design",
+      "代码结构设计": "Code Structure Design",
+      "三方库依赖": "Third-party Library Dependencies",
+      "对外接口设计": "External Interface Design",
+      "日志模块实现": "Log Module Implementation",
+      "上报协议设计": "Reporting Protocol Design",
+      "介绍": "Introduction",
+      "提问": "Questions",
+      "笔记": "Notes",
+      "推荐课程": "Recommended Courses",
+      "大家好,我是程序喵。": "Hello everyone, I'm Programmer Cat.",
+      "数据库设计与使用": "Database Design and Usage",
+      "为什么要做客户端SDK?": "Why make a client SDK?",
+      "如何发起http请求": "How to initiate an http request",
+      "之前说过要带大家实战一个C++项目,想了好久,中间也和鱼皮大佬多次讨论,最终决定做一个埋点相关的客户端SDK。": "I previously mentioned taking everyone through a C++ project. After much thought and discussion with Yu Pi da lao, I finally decided to create a client SDK related to tracking.",
+      "加解密实现": "Encryption and Decryption Implementation",
+      "多线程开发": "Multithreaded Development",
+      "上报模块实现": "Reporting Module Implementation",
+      "公共信息获取": "Public Information Acquisition",
+      "整体功能组装": "Overall Function Assembly",
+      "结束语": "Concluding Remarks",
+      "项目简历写法": "Project Resume Writing",
+      "我看过很多校招生C++简历中的项目经验,几乎清一色的Web Server,但其实现在C++在后端领域岗位相对比较少,貌似只有量化领域和某些游戏公司在使": "I've seen many C++ resumes from new graduates with project experience, almost exclusively Web Servers. However, C++ positions in the backend field are relatively few now; it seems only in quantitative finance and certain gaming companies are using",
+      "用C++做后端。": "C++ for backend development.",
+      "如果大家想做后端方向的话,我建议去学习Go或者Java,可能会比C++更适合一些。": "If you want to pursue backend development, I suggest learning Go or Java; they might be more suitable than C++.",
+      "C++现在主要应用在嵌入式领域、人工智能工业化、游戏等方向,很多移动端应用底层为了跨平台,也会使用爱视频能力、人脸识": "C++ is currently mainly used in embedded systems, AI industrialization, and games. Many mobile applications use C++ at the bottom layer for cross-platform compatibility, also utilizing video capabilities, facial recognition,",
+      "别能力等,都是使用C++开发,然后编译出可以在多平台运行的SDK,给业务方程序员使用。": "and other capabilities, all developed with C++, and then compiled into SDKs that can run on multiple platforms for use by business developers.",
+      "很多企业也会用QTC++做桌面端应用,这种岗位需要了解QT的相关API使用,甚至是原理,但想做合格的桌面端程序,还是要深入学习C++才行。": "Many companies also use Qt C++ for desktop applications. Such positions require understanding Qt API usage, and even its principles, but to create qualified desktop applications, a deep understanding of C++ is still necessary.",
+      "所以,虽然很多人在唱衰客户端,但唱衰的很多都是客户端开发页面的程序员,因为现在比较流行大前端,页面很多可以用Flutter等跨平台相关的组件或前端": "Therefore, although many people are pessimistic about client-side development, many of those are programmers who develop client-side pages, because large frontend development is currently popular, and many pages can be developed using cross-platform components like Flutter or frontend",
+      "语言开发,不太能唱衰的到C++。": "languages, so C++ is not easily dismissed.",
+      "而且在大企业中,相关的程序性能至关重要,想要高性能,几乎都要用到C++或C,当然,Rust也行,但现在Rust在国内岗位相当少,盲目走Rust方向风险比": "Moreover, in large enterprises, program performance is crucial. To achieve high performance, almost all require C++ or C. Of course, Rust is also an option, but currently, Rust positions are quite few in China, and blindly pursuing Rust carries a higher risk.",
+      "较高。": "."
+    },
+    "analysis": {
+      "has_chinese": true,
+      "chinese_text": [
+        "编程导航教程",
+        "搜索内容",
+        "首页",
+        "埋点 SDK 项目实战",
+        "项目教程",
+        "会员免费",
+        "埋点 SDK 项目实战",
+        "文字教程",
+        "视频教程",
+        "项目实战",
+        "作者:",
+        "程序喵",
+        "继续学习",
+        "分享",
+        "您已是会员,在",
+        "前可免费学(价值¥",
+        "开发环境",
+        "流程设计",
+        "代码结构设计",
+        "三方库依赖",
+        "对外接口设计",
+        "日志模块实现",
+        "上报协议设计",
+        "介绍",
+        "文字教程",
+        "视频教程",
+        "提问",
+        "笔记",
+        "推荐课程",
+        "大家好,我是程序喵。",
+        "数据库设计与使用",
+        "为什么要做客户端SDK?",
+        "如何发起http请求",
+        "之前说过要带大家实战一个C++项目,想了好久,中间也和鱼皮大佬多次讨论,最终决定做一个埋点相关的客户端SDK。",
+        "加解密实现",
+        "多线程开发",
+        "上报模块实现",
+        "公共信息获取",
+        "整体功能组装",
+        "结束语",
+        "项目简历写法",
+        "我看过很多校招生C++简历中的项目经验,几乎清一色的Web Server,但其实现在C++在后端领域岗位相对比较少,貌似只有量化领域和某些游戏公司在使",
+        "用C++做后端。",
+        "如果大家想做后端方向的话,我建议去学习Go或者Java,可能会比C++更适合一些。",
+        "C++现在主要应用在嵌入式领域、人工智能工业化、游戏等方向,很多移动端应用底层为了跨平台,也会使用爱视频能力、人脸识",
+        "别能力等,都是使用C++开发,然后编译出可以在多平台运行的SDK,给业务方程序员使用。",
+        "很多企业也会用QTC++做桌面端应用,这种岗位需要了解QT的相关API使用,甚至是原理,但想做合格的桌面端程序,还是要深入学习C++才行。",
+        "所以,虽然很多人在唱衰客户端,但唱衰的很多都是客户端开发页面的程序员,因为现在比较流行大前端,页面很多可以用Flutter等跨平台相关的组件或前端",
+        "语言开发,不太能唱衰的到C++。",
+        "而且在大企业中,相关的程序性能至关重要,想要高性能,几乎都要用到C++或C,当然,Rust也行,但现在Rust在国内岗位相当少,盲目走Rust方向风险比",
+        "较高。"
+      ],
+      "image_type": "screenshot",
+      "description": "A screenshot of a webpage with a tutorial for Cpp SDK development. The page lists a table of contents on the left and core course information and description on the right. There's a 'Continue Learning' button and a 'Share' button visible.",
+      "background_color": "dominant background color",
+      "text_positions": [
+        {
+          "text": "编程导航教程",
+          "area": "top left"
+        },
+        {
+          "text": "搜索内容",
+          "area": "top left search bar"
+        },
+        {
+          "text": "首页",
+          "area": "left sidebar"
+        },
+        {
+          "text": "埋点 SDK 项目实战",
+          "area": "top center"
+        },
+        {
+          "text": "项目教程",
+          "area": "red box on the right"
+        },
+        {
+          "text": "会员免费",
+          "area": "header above course title"
+        },
+        {
+          "text": "埋点 SDK 项目实战",
+          "area": "course title on the right"
+        },
+        {
+          "text": "文字教程",
+          "area": "left sidebar, selected item"
+        },
+        {
+          "text": "视频教程",
+          "area": "left sidebar, next to '文字教程'"
+        },
+        {
+          "text": "项目实战",
+          "area": "course title inside the red box"
+        },
+        {
+          "text": "作者:",
+          "area": "below course title"
+        },
+        {
+          "text": "程序喵",
+          "area": "next to '作者:'"
+        },
+        {
+          "text": "继续学习",
+          "area": "blue button"
+        },
+        {
+          "text": "分享",
+          "area": "gray button"
+        },
+        {
+          "text": "您已是会员,在",
+          "area": "next to share button"
+        },
+        {
+          "text": "前可免费学(价值¥",
+          "area": "next to date"
+        },
+        {
+          "text": "开发环境",
+          "area": "left sidebar, list item 1"
+        },
+        {
+          "text": "流程设计",
+          "area": "left sidebar, list item 2"
+        },
+        {
+          "text": "代码结构设计",
+          "area": "left sidebar, list item 3"
+        },
+        {
+          "text": "三方库依赖",
+          "area": "left sidebar, list item 4"
+        },
+        {
+          "text": "对外接口设计",
+          "area": "left sidebar, list item 5"
+        },
+        {
+          "text": "日志模块实现",
+          "area": "left sidebar, list item 6"
+        },
+        {
+          "text": "上报协议设计",
+          "area": "left sidebar, list item 7"
+        },
+        {
+          "text": "介绍",
+          "area": "main content tabs"
+        },
+        {
+          "text": "文字教程",
+          "area": "main content tabs"
+        },
+        {
+          "text": "视频教程",
+          "area": "main content tabs"
+        },
+        {
+          "text": "提问",
+          "area": "main content tabs"
+        },
+        {
+          "text": "笔记",
+          "area": "main content tabs"
+        },
+        {
+          "text": "推荐课程",
+          "area": "main content tabs"
+        },
+        {
+          "text": "大家好,我是程序喵。",
+          "area": "main content, first paragraph"
+        },
+        {
+          "text": "数据库设计与使用",
+          "area": "left sidebar, list item 8"
+        },
+        {
+          "text": "为什么要做客户端SDK?",
+          "area": "main content, heading 2"
+        },
+        {
+          "text": "如何发起http请求",
+          "area": "left sidebar, list item 9"
+        },
+        {
+          "text": "之前说过要带大家实战一个C++项目,想了好久,中间也和鱼皮大佬多次讨论,最终决定做一个埋点相关的客户端SDK。",
+          "area": "main content, second paragraph"
+        },
+        {
+          "text": "加解密实现",
+          "area": "left sidebar, list item 10"
+        },
+        {
+          "text": "多线程开发",
+          "area": "left sidebar, list item 11"
+        },
+        {
+          "text": "上报模块实现",
+          "area": "left sidebar, list item 12"
+        },
+        {
+          "text": "公共信息获取",
+          "area": "left sidebar, list item 13"
+        },
+        {
+          "text": "整体功能组装",
+          "area": "left sidebar, list item 14"
+        },
+        {
+          "text": "结束语",
+          "area": "left sidebar, list item 15"
+        },
+        {
+          "text": "项目简历写法",
+          "area": "left sidebar, list item 16"
+        },
+        {
+          "text": "我看过很多校招生C++简历中的项目经验,几乎清一色的Web Server,但其实现在C++在后端领域岗位相对比较少,貌似只有量化领域和某些游戏公司在使",
+          "area": "main content, third paragraph"
+        },
+        {
+          "text": "用C++做后端。",
+          "area": "main content, continuation of third paragraph"
+        },
+        {
+          "text": "如果大家想做后端方向的话,我建议去学习Go或者Java,可能会比C++更适合一些。",
+          "area": "main content, fourth paragraph"
+        },
+        {
+          "text": "C++现在主要应用在嵌入式领域、人工智能工业化、游戏等方向,很多移动端应用底层为了跨平台,也会使用爱视频能力、人脸识",
+          "area": "main content, fifth paragraph"
+        },
+        {
+          "text": "别能力等,都是使用C++开发,然后编译出可以在多平台运行的SDK,给业务方程序员使用。",
+          "area": "main content, continuation of fifth paragraph"
+        },
+        {
+          "text": "很多企业也会用QTC++做桌面端应用,这种岗位需要了解QT的相关API使用,甚至是原理,但想做合格的桌面端程序,还是要深入学习C++才行。",
+          "area": "main content, sixth paragraph"
+        },
+        {
+          "text": "所以,虽然很多人在唱衰客户端,但唱衰的很多都是客户端开发页面的程序员,因为现在比较流行大前端,页面很多可以用Flutter等跨平台相关的组件或前端",
+          "area": "main content, seventh paragraph"
+        },
+        {
+          "text": "语言开发,不太能唱衰的到C++。",
+          "area": "main content, continuation of seventh paragraph"
+        },
+        {
+          "text": "而且在大企业中,相关的程序性能至关重要,想要高性能,几乎都要用到C++或C,当然,Rust也行,但现在Rust在国内岗位相当少,盲目走Rust方向风险比",
+          "area": "main content, eighth paragraph"
+        },
+        {
+          "text": "较高。",
+          "area": "main content, continuation of eighth paragraph"
+        }
+      ]
+    }
+  }
+]
