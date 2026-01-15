@@ -10,7 +10,7 @@ import json
 from pathlib import Path
 
 # Configuration
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "YOUR_API_KEY_HERE"
 REPO_ROOT = Path(__file__).parent
 OUTPUT_DIR = REPO_ROOT / "image_en"
 OUTPUT_DIR.mkdir(exist_ok=True)

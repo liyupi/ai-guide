@@ -15,7 +15,7 @@ from typing import List, Dict, Optional
 # import io
 
 # Configuration
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "YOUR_API_KEY_HERE"
 MODEL_VISION = "google/gemini-2.5-flash"
 MODEL_TEXT = "google/gemini-2.5-flash"  # Use paid model for translations too
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
