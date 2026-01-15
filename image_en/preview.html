@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Translation Preview</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .image-container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .image-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .image-title {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .translation-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .translation-table th,
+        .translation-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .translation-table th {
+            background: #f0f0f0;
+        }
+        .chinese {
+            color: #e74c3c;
+        }
+        .english {
+            color: #27ae60;
+            font-weight: 500;
+        }
+        .status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        .status.pending {
+            background: #fff3cd;
+            color: #856404;
+        }
+        .status.done {
+            background: #d4edda;
+            color: #155724;
+        }
+    </style>
+</head>
+<body>
+    <h1>🖼️ Image Translation Preview</h1>
+    <p style="text-align: center; color: #666;">
+        This page shows Chinese text extracted from images and their English translations.
+    </p>
+
+    <div class="image-container">
+        <div class="image-header">
+            <div class="image-title">📸 image/join_us.png</div>
+            <span class="status pending">⏳ Pending English Image</span>
+        </div>
+        <table class="translation-table">
+            <thead>
+                <tr>
+                    <th width="45%">Chinese (原文)</th>
+                    <th width="45%">English (英文)</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td class="chinese">开始你的编程学习之旅</td>
+                    <td class="english">Start your programming learning journey</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">360元/年</td>
+                    <td class="english">360 yuan/year</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">¥480元/年</td>
+                    <td class="english">¥480 yuan/year</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">学编程就上编程导航</td>
+                    <td class="english">Learn programming on Programming Navigator</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">微信扫描二维码</td>
+                    <td class="english">WeChat scan QR code</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="image-container">
+        <div class="image-header">
+            <div class="image-title">📸 image/coupon.jpg</div>
+            <span class="status pending">⏳ Pending English Image</span>
+        </div>
+        <table class="translation-table">
+            <thead>
+                <tr>
+                    <th width="45%">Chinese (原文)</th>
+                    <th width="45%">English (英文)</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td class="chinese">程序员鱼皮</td>
+                    <td class="english">Programmer Yu Pi</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">给您赠送一张优惠券</td>
+                    <td class="english">Presents you with a coupon</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">立减</td>
+                    <td class="english">Instant discount</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">2026/01/20 23:00 后失效</td>
+                    <td class="english">Expires after 2026/01/20 23:00</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">长按图片识别二维码</td>
+                    <td class="english">Long press image to scan QR code</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">开始编程之旅</td>
+                    <td class="english">Start your programming journey</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">编程导航</td>
+                    <td class="english">Programming Navigation</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="image-container">
+        <div class="image-header">
+            <div class="image-title">📸 image/11_11.png</div>
+            <span class="status pending">⏳ Pending English Image</span>
+        </div>
+        <table class="translation-table">
+            <thead>
+                <tr>
+                    <th width="45%">Chinese (原文)</th>
+                    <th width="45%">English (英文)</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td class="chinese">程序员鱼皮</td>
+                    <td class="english">Programmer Yu Pi</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">给您赠送一张优惠券</td>
+                    <td class="english">Give you a coupon</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">立减</td>
+                    <td class="english">Instant discount</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">后失效</td>
+                    <td class="english">Expires after</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">长按图片识别二维码</td>
+                    <td class="english">Long press image to recognize QR code</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">开始编程之旅</td>
+                    <td class="english">Start coding journey</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">编程导航</td>
+                    <td class="english">Programming Navigation</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="image-container">
+        <div class="image-header">
+            <div class="image-title">📸 image/sdk_project.png</div>
+            <span class="status pending">⏳ Pending English Image</span>
+        </div>
+        <table class="translation-table">
+            <thead>
+                <tr>
+                    <th width="45%">Chinese (原文)</th>
+                    <th width="45%">English (英文)</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td class="chinese">编程导航教程</td>
+                    <td class="english">Programming Navigation Tutorial</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">搜索内容</td>
+                    <td class="english">Search Content</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">首页</td>
+                    <td class="english">Home</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">埋点 SDK 项目实战</td>
+                    <td class="english">Tracking SDK Project Practice</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">项目教程</td>
+                    <td class="english">Project Tutorial</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">会员免费</td>
+                    <td class="english">Members Free</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">文字教程</td>
+                    <td class="english">Text Tutorial</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">视频教程</td>
+                    <td class="english">Video Tutorial</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">项目实战</td>
+                    <td class="english">Project Practice</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">作者:</td>
+                    <td class="english">Author:</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">程序喵</td>
+                    <td class="english">Programmer Cat</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">继续学习</td>
+                    <td class="english">Continue Learning</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">分享</td>
+                    <td class="english">Share</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">您已是会员,在</td>
+                    <td class="english">You are already a member, free until</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">前可免费学(价值¥</td>
+                    <td class="english">Free (value ¥</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">开发环境</td>
+                    <td class="english">Development Environment</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">流程设计</td>
+                    <td class="english">Process Design</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">代码结构设计</td>
+                    <td class="english">Code Structure Design</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">三方库依赖</td>
+                    <td class="english">Third-party Library Dependencies</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">对外接口设计</td>
+                    <td class="english">External Interface Design</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">日志模块实现</td>
+                    <td class="english">Log Module Implementation</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">上报协议设计</td>
+                    <td class="english">Reporting Protocol Design</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">介绍</td>
+                    <td class="english">Introduction</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">提问</td>
+                    <td class="english">Questions</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">笔记</td>
+                    <td class="english">Notes</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">推荐课程</td>
+                    <td class="english">Recommended Courses</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">大家好,我是程序喵。</td>
+                    <td class="english">Hello everyone, I'm Programmer Cat.</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">数据库设计与使用</td>
+                    <td class="english">Database Design and Usage</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">为什么要做客户端SDK?</td>
+                    <td class="english">Why make a client SDK?</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">如何发起http请求</td>
+                    <td class="english">How to initiate an http request</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">之前说过要带大家实战一个C++项目,想了好久,中间也和鱼皮大佬多次讨论,最终决定做一个埋点相关的客户端SDK。</td>
+                    <td class="english">I previously mentioned taking everyone through a C++ project. After much thought and discussion with Yu Pi da lao, I finally decided to create a client SDK related to tracking.</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">加解密实现</td>
+                    <td class="english">Encryption and Decryption Implementation</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">多线程开发</td>
+                    <td class="english">Multithreaded Development</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">上报模块实现</td>
+                    <td class="english">Reporting Module Implementation</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">公共信息获取</td>
+                    <td class="english">Public Information Acquisition</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">整体功能组装</td>
+                    <td class="english">Overall Function Assembly</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">结束语</td>
+                    <td class="english">Concluding Remarks</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">项目简历写法</td>
+                    <td class="english">Project Resume Writing</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">我看过很多校招生C++简历中的项目经验,几乎清一色的Web Server,但其实现在C++在后端领域岗位相对比较少,貌似只有量化领域和某些游戏公司在使</td>
+                    <td class="english">I've seen many C++ resumes from new graduates with project experience, almost exclusively Web Servers. However, C++ positions in the backend field are relatively few now; it seems only in quantitative finance and certain gaming companies are using</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">用C++做后端。</td>
+                    <td class="english">C++ for backend development.</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">如果大家想做后端方向的话,我建议去学习Go或者Java,可能会比C++更适合一些。</td>
+                    <td class="english">If you want to pursue backend development, I suggest learning Go or Java; they might be more suitable than C++.</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">C++现在主要应用在嵌入式领域、人工智能工业化、游戏等方向,很多移动端应用底层为了跨平台,也会使用爱视频能力、人脸识</td>
+                    <td class="english">C++ is currently mainly used in embedded systems, AI industrialization, and games. Many mobile applications use C++ at the bottom layer for cross-platform compatibility, also utilizing video capabilities, facial recognition,</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">别能力等,都是使用C++开发,然后编译出可以在多平台运行的SDK,给业务方程序员使用。</td>
+                    <td class="english">and other capabilities, all developed with C++, and then compiled into SDKs that can run on multiple platforms for use by business developers.</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">很多企业也会用QTC++做桌面端应用,这种岗位需要了解QT的相关API使用,甚至是原理,但想做合格的桌面端程序,还是要深入学习C++才行。</td>
+                    <td class="english">Many companies also use Qt C++ for desktop applications. Such positions require understanding Qt API usage, and even its principles, but to create qualified desktop applications, a deep understanding of C++ is still necessary.</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">所以,虽然很多人在唱衰客户端,但唱衰的很多都是客户端开发页面的程序员,因为现在比较流行大前端,页面很多可以用Flutter等跨平台相关的组件或前端</td>
+                    <td class="english">Therefore, although many people are pessimistic about client-side development, many of those are programmers who develop client-side pages, because large frontend development is currently popular, and many pages can be developed using cross-platform components like Flutter or frontend</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">语言开发,不太能唱衰的到C++。</td>
+                    <td class="english">languages, so C++ is not easily dismissed.</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">而且在大企业中,相关的程序性能至关重要,想要高性能,几乎都要用到C++或C,当然,Rust也行,但现在Rust在国内岗位相当少,盲目走Rust方向风险比</td>
+                    <td class="english">Moreover, in large enterprises, program performance is crucial. To achieve high performance, almost all require C++ or C. Of course, Rust is also an option, but currently, Rust positions are quite few in China, and blindly pursuing Rust carries a higher risk.</td>
+                </tr>
+
+                <tr>
+                    <td class="chinese">较高。</td>
+                    <td class="english">.</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div style="text-align: center; margin-top: 40px; padding: 20px; background: white; border-radius: 8px;">
+        <h3>📝 Editing Instructions</h3>
+        <p>See <code>IMAGE_EDITING_INSTRUCTIONS.md</code> for detailed editing instructions.</p>
+        <p>Or use the prompts in <code>image_en/image_generation_prompts.json</code> with AI image generators.</p>
+    </div>
+</body>
+</html>

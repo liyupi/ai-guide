@@ -1,0 +1,39 @@
+[
+  {
+    "image": "image/join_us.png",
+    "prompt": "Create a modern, professional promotional banner image for a programming learning platform called \"Programming Navigation\" (编程导航).\n\nKey elements:\n- Main headline: \"Start your programming learning journey\" (开始你的编程学习之旅)\n- Pricing: \"360 yuan/year\" and \"480 yuan/year\"\n- Call to action: \"Learn programming on Programming Navigator\" (学编程就上编程导航)\n- Include: \"WeChat scan QR code\" indicator\n- Style: Modern, clean, tech-themed with blue/green colors\n- Layout: Horizontal banner, suitable for website header\n- Include a placeholder QR code area",
+    "translations": {
+      "开始你的编程学习之旅": "Start your programming learning journey",
+      "360元/年": "360 yuan/year",
+      "¥480元/年": "¥480 yuan/year",
+      "学编程就上编程导航": "Learn programming on Programming Navigator",
+      "微信扫描二维码": "WeChat scan QR code"
+    }
+  },
+  {
+    "image": "image/coupon.jpg",
+    "prompt": "Create a professional coupon/voucher image for \"Programming Navigation\" (编程导航) platform.\n\nKey elements:\n- From: \"Programmer Yu Pi\" (程序员鱼皮)\n- Title: \"Exclusive Coupon for You\" (给您赠送一张优惠券)\n- Highlight: \"Instant Discount\" (立减)\n- Include expiration placeholder\n- Call to action: \"Start your programming journey\" (开始编程之旅)\n- QR code instruction: \"Long press to scan QR code\"\n- Style: Festive, red/gold colors, professional coupon design",
+    "translations": {
+      "程序员鱼皮": "Programmer Yu Pi",
+      "给您赠送一张优惠券": "Presents you with a coupon",
+      "立减": "Instant discount",
+      "2026/01/20 23:00 后失效": "Expires after 2026/01/20 23:00",
+      "长按图片识别二维码": "Long press image to scan QR code",
+      "开始编程之旅": "Start your programming journey",
+      "编程导航": "Programming Navigation"
+    }
+  },
+  {
+    "image": "image/11_11.png",
+    "prompt": "Create a promotional coupon image for a special sale event.\n\nKey elements:\n- From: \"Programmer Yu Pi\"\n- Title: \"Exclusive Coupon\"\n- Text: \"Instant Discount\"\n- Call to action: \"Start your programming journey\"\n- Platform: \"Programming Navigation\"\n- Style: Shopping/sale themed, eye-catching colors",
+    "translations": {
+      "程序员鱼皮": "Programmer Yu Pi",
+      "给您赠送一张优惠券": "Give you a coupon",
+      "立减": "Instant discount",
+      "后失效": "Expires after",
+      "长按图片识别二维码": "Long press image to recognize QR code",
+      "开始编程之旅": "Start coding journey",
+      "编程导航": "Programming Navigation"
+    }
+  }
+]

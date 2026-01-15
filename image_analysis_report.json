@@ -1,0 +1,128 @@
+[
+  {
+    "has_chinese_text": false,
+    "error": "'choices'",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/icon/ai.svg",
+    "relative_path": ".vuepress/public/icon/ai.svg"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/icon/copyright.svg",
+    "relative_path": ".vuepress/public/icon/copyright.svg"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "'choices'",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/icon/dianzan.png",
+    "relative_path": ".vuepress/public/icon/dianzan.png"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/icon/message.svg",
+    "relative_path": ".vuepress/public/icon/message.svg"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/icon/mobile.png",
+    "relative_path": ".vuepress/public/icon/mobile.png"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/icon/resume.svg",
+    "relative_path": ".vuepress/public/icon/resume.svg"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/icon/sketch.svg",
+    "relative_path": ".vuepress/public/icon/sketch.svg"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/icon/user.svg",
+    "relative_path": ".vuepress/public/icon/user.svg"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/icon/weixin.png",
+    "relative_path": ".vuepress/public/icon/weixin.png"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/icon/xiazai.png",
+    "relative_path": ".vuepress/public/icon/xiazai.png"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/icon/xingqiu.png",
+    "relative_path": ".vuepress/public/icon/xingqiu.png"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/logo.png",
+    "relative_path": ".vuepress/public/logo.png"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/qrcode-codefather.png",
+    "relative_path": ".vuepress/public/qrcode-codefather.png"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/qrcode-codenav.png",
+    "relative_path": ".vuepress/public/qrcode-codenav.png"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/qrcode-codenavhelper.png",
+    "relative_path": ".vuepress/public/qrcode-codenavhelper.png"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/qrcode-mpcoder_yupi.jpg",
+    "relative_path": ".vuepress/public/qrcode-mpcoder_yupi.jpg"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/.vuepress/public/qrcode-thumb.jpg",
+    "relative_path": ".vuepress/public/qrcode-thumb.jpg"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/image/11_11.png",
+    "relative_path": "image/11_11.png"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/image/coupon.jpg",
+    "relative_path": "image/coupon.jpg"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/image/join_us.png",
+    "relative_path": "image/join_us.png"
+  },
+  {
+    "has_chinese_text": false,
+    "error": "400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions",
+    "image_path": "/Users/vijay/IdeaProjects/ai-guide/image/sdk_project.png",
+    "relative_path": "image/sdk_project.png"
+  }
+]

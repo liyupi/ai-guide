@@ -2,26 +2,26 @@ import { NavItem } from "vuepress/config";
 
 export default [
   {
-    text: "AI 项目",
+    text: "AI Projects",
     items: [
       {
-        text: "AI 海龟汤项目教程",
+        text: "AI Turtle Soup Project Tutorial",
         link: "/ai-海龟汤项目教程/",
       },
       {
-        text: "AI + Cursor 开发一个亲戚计算器",
+        text: "AI + Cursor Develop a Relative Calculator",
         link: "/ai-cursor-开发一个亲戚计算器/",
       },
       {
-        text: "AI + Cursor 开发一个模拟面试系统",
+        text: "AI + Cursor Develop a Mock Interview System",
         link: "/ai-cursor-开发一个模拟面试系统/",
       },
       {
-        text: "AI + Cursor 开发一个肺活量测试器",
+        text: "AI + Cursor Develop a Lung Capacity Tester",
         link: "/ai-cursor-开发一个肺活量测试器/",
       },
       {
-        text: "🔥 企业级项目：开发 AI 恋爱大师应用 + 拥有自主规划能力的超级智能体",
+        text: "🔥 Enterprise Project: Develop AI Love Master App + Super Agent with Autonomous Planning",
         link: "/🔥-企业级项目-开发-ai-恋爱大师应用-拥有自主规划能力的超级智能体/",
       },
     ],
@@ -30,41 +30,41 @@ export default [
     text: "Deepseek",
     items: [
       {
-        text: "关于DeepSeek",
-        link: "/Deepseek/#关于deepseek",
+        text: "About DeepSeek",
+        link: "/Deepseek/#aboutdeepseek",
       },
       {
-        text: "DeepSeek 使用指南",
-        link: "/ai/#deepseek使用指南",
+        text: "DeepSeek Usage Guide",
+        link: "/ai/#deepseekusageguide",
       },
       {
-        text: "AI 应用场景",
-        link: "/ai/#ai应用场景",
+        text: "AI Application Scenarios",
+        link: "/ai/#aiapplicationscenarios",
       },
       {
-        text: "DeepSeek 资源汇总",
-        link: "/ai/#deepseek资源汇总",
+        text: "DeepSeek Resource Collection",
+        link: "/ai/#deepseekresourcecollection",
       },
       {
-        text: "DeepSeek 技术解析",
-        link: "/ai/#deepseek技术解析",
+        text: "DeepSeek Technical Analysis",
+        link: "/ai/#deepseektechnicalanalysis",
       },
       {
-        text: "AI 行业资讯",
-        link: "/ai/#ai行业资讯",
+        text: "AI Industry News",
+        link: "/ai/#aiindustrynews",
       },
     ],
   },
   {
-    text: "🔥编程学习",
+    text: "🔥Programming Learning",
     link: "https://www.codefather.cn/",
   },
   {
-    text: "AI 面试题库",
+    text: "AI Interview Question Bank",
     link: "https://www.mianshiya.com/?category=ai",
   },
   {
-    text: "作者",
-    link: "/作者/",
+    text: "Author",
+    link: "/author",
   },
 ] as NavItem[];
