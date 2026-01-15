@@ -1,27 +1,27 @@
 /**
- * 底部版权信息
+ * Footer copyright information
  */
 export default {
   friendLinks: [
     {
-      label: "站长 - 程序员鱼皮",
+      label: "Webmaster - Programmer Fish Skin",
       // icon: "/icon/user.svg",
       href: "https://yuyuanweb.feishu.cn/wiki/Abldw5WkjidySxkKxU2cQdAtnah",
     },
     {
-      label: "鱼鸢网络",
+      label: "Yuyuan Network",
       href: "https://yuyuanweb.com/",
     },
     {
-      label: "老鱼简历",
+      label: "Lao Yu Resume",
       href: "https://www.laoyujianli.com/",
     },
     {
-      label: "面试鸭",
+      label: "Mianshi Ya",
       href: "https://www.mianshiya.com/",
     },
     {
-      label: "编程学习圈",
+      label: "Programming Learning Circle",
       href: "https://www.codefather.cn/",
     },
   ],

@@ -4,29 +4,29 @@ import footer from "./footer";
 import navbar from "./navbar";
 import sidebar from "./sidebar";
 
-const author = "程序员鱼皮";
+const author = "Programmer Fish Skin";
 const domain = "https://ai.codefather.cn";
 const tags = [
   "ai",
   "deepseek",
-  "AI 资讯",
-  "人工智能",
-  "AI 行业趋势",
-  "AI 技术",
-  "AI 新闻",
-  "AI 动态",
-  "AI 市场分析",
-  "AI 模型",
-  "AI 独家分析",
-  "AI 深度解读",
+  "AI News",
+  "Artificial Intelligence",
+  "AI Industry Trends",
+  "AI Technology",
+  "AI News Updates",
+  "AI Dynamics",
+  "AI Market Analysis",
+  "AI Models",
+  "AI Exclusive Analysis",
+  "AI Deep Insights",
 ];
 
 export default defineConfig({
-  title: "鱼皮 AI 知识库",
+  title: "Fish Skin's AI Knowledge Base",
   description:
-    "鱼皮 AI 知识库 - 免费 DeepSeek 教程｜工具站｜资源库，是一站式开源免费的人工智能知识分享平台，汇集 Deepseek、GPT 等热门 AI 工具介绍、使用指南、技巧分享、应用场景、AI 变现、行业资讯、教程资源汇总，提供系统化的 AI 教程、精选 AI 资源，助你快速掌握 AI 技术，成为 AI 专家！",
+    "Fish Skin's AI Knowledge Base - Free DeepSeek Tutorials | Tools | Resources, a one-stop open-source free artificial intelligence knowledge sharing platform, bringing together introductions to popular AI tools like Deepseek, GPT, usage guides, tips sharing, application scenarios, AI monetization, industry news, tutorial resource summaries, providing systematic AI tutorials and selected AI resources to help you quickly master AI technology and become an AI expert!",
   head: [
-    // 站点图标
+    // Site icon
     ["link", { rel: "icon", href: "/favicon.ico" }],
     // SEO
     [
@@ -34,10 +34,10 @@ export default defineConfig({
       {
         name: "keywords",
         content:
-          "ai, deepseek, AI 资讯，人工智能，AI 行业趋势，AI 技术，AI 新闻，AI 动态，AI 市场分析，AI 模型，AI 独家分析，AI 深度解读",
+          "ai, deepseek, AI News, Artificial Intelligence, AI Industry Trends, AI Technology, AI News Updates, AI Dynamics, AI Market Analysis, AI Models, AI Exclusive Analysis, AI Deep Insights",
       },
     ],
-    // 百度统计
+    // Baidu Analytics
     [
       "script",
       {},
@@ -46,7 +46,7 @@ export default defineConfig({
         (function() {
           var hm = document.createElement("script");
           hm.src = "https://hm.baidu.com/hm.js?6998d638562bceef30be297767e91d64";
-          var s = document.getElementsByTagName("script")[0]; 
+          var s = document.getElementsByTagName("script")[0];
           s.parentNode.insertBefore(hm, s);
         })();
       `,
@@ -54,22 +54,22 @@ export default defineConfig({
   ],
   permalink: "/:slug",
 
-  // 监听文件变化，热更新
+  // Watch file changes for hot reload
   extraWatchFiles: [".vuepress/*.ts", ".vuepress/sidebars/*.ts"],
   markdown: {
-    // 开启代码块的行号
+    // Enable line numbers for code blocks
     lineNumbers: true,
-    // 支持 4 级以上的标题渲染
+    // Support rendering headings beyond level 4
     extractHeaders: ["h2", "h3", "h4", "h5", "h6"],
   },
   // @ts-ignore
   plugins: [
     ["@vuepress/back-to-top"],
-    // Google 分析
+    // Google Analytics
     [
       "@vuepress/google-analytics",
       {
-        ga: "GTM-WVS9HM6W", // 补充自己的谷歌分析 ID，比如 UA-00000000-0
+        ga: "GTM-WVS9HM6W", // Add your own Google Analytics ID, e.g. UA-00000000-0
       },
     ],
     ["@vuepress/medium-zoom"],
@@ -77,8 +77,8 @@ export default defineConfig({
     [
       "seo",
       {
-        siteTitle: (_, $site) => $site.title + " - 免费 DeepSeek 教程｜工具站｜资源库",
-        title: ($page) => $page.title + " - 免费 DeepSeek 教程｜工具站｜资源库",
+        siteTitle: (_, $site) => $site.title + " - Free DeepSeek Tutorials | Tools | Resources",
+        title: ($page) => $page.title + " - Free DeepSeek Tutorials | Tools | Resources",
         description: ($page) => $page.frontmatter.description || $page.description,
         author: (_, $site) => $site.themeConfig.author || author,
         tags: ($page) => $page.frontmatter.tags || tags,
@@ -106,7 +106,7 @@ export default defineConfig({
     [
       "vuepress-plugin-code-copy",
       {
-        successText: "代码已复制",
+        successText: "Code copied",
       },
     ],
     // https://github.com/webmasterish/vuepress-plugin-feed
@@ -115,32 +115,32 @@ export default defineConfig({
       {
         canonical_base: domain,
         count: 10000,
-        // 需要自动推送的文档目录
+        // Document directories to auto-push
         posts_directories: [],
       },
     ],
     // https://github.com/tolking/vuepress-plugin-img-lazy
     ["img-lazy"],
   ],
-  // 主题配置
+  // Theme configuration
   themeConfig: {
     logo: "/logo.png",
     nav: navbar,
     sidebar,
-    lastUpdated: "最近更新",
+    lastUpdated: "Last Updated",
 
-    // GitHub 仓库位置
+    // GitHub repository location
     repo: "liyupi/ai-guide",
     docsBranch: "master",
 
-    // 编辑链接
+    // Edit links
     editLinks: true,
-    editLinkText: "完善页面",
+    editLinkText: "Improve this page",
 
     // @ts-ignore
-    // 底部版权信息
+    // Footer copyright information
     footer,
-    // 额外右侧边栏
+    // Extra right sidebar
     extraSideBar,
   },
 });
