@@ -136,7 +136,7 @@ Name Generator (Vue): [https://github.com/liyupi/good-name](https://github.com/l
 
 A programming learning circle with over 20,000 people, welcome to join and start your programming journey: [💎 Programming Learning - Programming Navigation](https://yuyuanweb.feishu.cn/wiki/VC1qwmX9diCBK3kidyec74vFnde)
 
-![](./image/join_us.png)
+![](./image/join_us_en.png)
 
 
 ## Business Cooperation
