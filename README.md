@@ -22,6 +22,13 @@
 
 
 
+## 🌐 Translations
+
+[English](./translations/en/README.md)
+
+---
+
+
 ## 🔥 鱼皮的 Vibe Coding 零基础入门教程
 
 
