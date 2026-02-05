@@ -1,28 +1,34 @@
 # Superpowers: Core Skill Library
 
-> Empowering AI to Work Like Professional Programmers
+> Making AI work like a professional programmer
 
-Hello, I'm Programmer Fish Skin.
 
-In previous articles, we explored various AI programming tools and standardized development frameworks. But you might wonder: Is there a complete development process that enables AI to work like a professional programmer?
 
-In this article, I will introduce **Superpowers**, a software development process that makes AI programming assistants more professional.
+Hello, I'm programmer Fish Skin.
+
+In previous articles, we've learned about various AI programming tools and standardized development frameworks. But you might be wondering: Is there a complete development process that can make AI work like a professional programmer?
+
+In this article, I'll introduce **Superpowers**, a development process that makes AI programming assistants more professional.
+
+
 
 ## What is Superpowers?
 
-[Superpowers](https://github.com/obra/superpowers) is a **software development process** that enhances AI programming assistants. It not only provides a composable **programming skill package** for Claude Code but also offers guidelines and instructions to ensure AI uses these skills correctly.
+[Superpowers](https://github.com/obra/superpowers) is a **software development process** that makes AI programming assistants more professional. It not only provides Claude Code with a composable **programming skill pack**, but also offers specifications and instructions to ensure that AI can correctly use these skills.
 
-Traditional AI programming starts writing code as soon as you state the requirements, often resulting in undesired outcomes. With Superpowers, AI first clarifies what you want, proposes a design for confirmation, creates a detailed execution plan, and then implements it step-by-step, with self-checks at each stage.
+In traditional AI programming, as soon as you state a requirement, it starts coding away, but the result might not be what you wanted. After installing Superpowers, AI will first clarify what you want to do, then present a design plan for your confirmation, followed by a detailed execution plan, and finally implement it step by step, with self-checks at each step.
 
-It's like giving superpowers to an AI that knows nothing when it joins the company, instantly equipping it with the development habits of a professional programmer.
+It's like giving superpowers to an AI that just joined the company and knows nothing, instantly giving it the development habits of a professional programmer.
 
 ![](https://pic.yupi.icu/1/%E6%BC%AB%E7%94%BB%E5%9B%BE8%E5%A4%A7.jpeg)
+
+
 
 ## Quick Start with Superpowers
 
 Let me guide you through a practical example to quickly get started with Superpowers.
 
-### 1. Installing Superpowers
+### 1. Install Superpowers
 
 Refer to the [Superpowers official documentation](https://github.com/obra/superpowers) and run the following commands in Claude Code to install.
 
@@ -34,7 +40,7 @@ First, register the marketplace:
 
 ![](https://pic.yupi.icu/1/image-20260116171109190.png)
 
-Then install the plugin from the marketplace:
+Then, install the plugin from the marketplace:
 
 ```bash
 /plugin install superpowers@superpowers-marketplace
@@ -42,52 +48,58 @@ Then install the plugin from the marketplace:
 
 ![](https://pic.yupi.icu/1/image-20260116171125164.png)
 
-After installation, run `/help` to view available commands. You will see these 3 commands:
+After installation, run `/help` to view available commands. You'll see these 3 commands:
 
-- `/superpowers:brainstorm` Continuously improves design through user interaction
-- `/superpowers:write-plan` Creates an implementation plan
-- `/superpowers:execute-plan` Executes the plan in batches
+- `/superpowers:brainstorm` Continuously improve the design through interaction with the user
+- `/superpowers:write-plan` Create an implementation plan
+- `/superpowers:execute-plan` Batch execute the plan
 
 ![](https://pic.yupi.icu/1/image-20260116171300633.png)
 
+
+
 ### 2. Standard Workflow
 
-Let's take the development of a "User Registration Module" as an example to demonstrate Superpowers' official standard workflow.
+Let's take the development of a "user registration module" as an example to demonstrate Superpowers' official standard workflow.
 
 First, run the `claude` command in the terminal to start Claude Code, then follow these 7 steps:
 
 #### 1) Brainstorming => Aligning Requirements
 
-Select the `/superpowers:brainstorm` command and input your requirements:
+Select the `/superpowers:brainstorm` command and input the requirements:
 
 ![](https://pic.yupi.icu/1/image-20260116175524611.png)
 
-Superpowers doesn't rush to write code. Instead, it aligns requirements through multiple rounds of Q&A, such as:
+Superpowers won't rush to write code. Instead, it will first align the requirements through multiple rounds of Q&A, such as:
 
 - What are the main scenarios for the user registration module?
 - Which registration methods do you want to support?
 
 ![](https://pic.yupi.icu/1/image-20260116175456666.png)
 
-Through interactive Q&A, AI explores different solutions and continuously improves the design.
+Through interactive Q&A, AI will explore different solutions and continuously improve the design.
 
 ![](https://pic.yupi.icu/1/image-20260116175907783.png)
 
-Once the requirements and solutions are confirmed, it automatically saves the detailed design document to the `docs/plans/` directory.
+Once the requirements and solutions are confirmed, it will automatically save the detailed design document to the `docs/plans/` directory.
 
 ![](https://pic.yupi.icu/1/image-20260116180740987.png)
 
+
+
 #### 2) Using Git Worktrees to Create an Independent Workspace (Optional)
 
-After the design is approved, Superpowers helps you create a Git worktree, establishing an isolated workspace on a new branch, initializing the project, and verifying the test baseline is clean. This avoids polluting the main branch.
+After the design plan is approved, Superpowers will help you create a Git worktree, establishing an isolated workspace on a new branch, initializing the project, and verifying that the test baseline is clean. This avoids polluting the main branch.
 
-This step is optional. Here, I let AI continue execution to see what happens:
+This step is optional. Here, I'll let AI continue executing to see what happens:
 
 ![](https://pic.yupi.icu/1/image-20260116181020601.png)
 
-#### 3) Writing Plans => Creating an Implementation Plan
 
-Run the `/superpowers:write-plan` command to let Superpowers generate a detailed implementation plan, breaking down development tasks into atomic-level steps (each task takes 2 ~ 5 minutes).
+
+#### 3) Writing Plans to Create an Implementation Plan
+
+Run the `/superpowers:write-plan` command to let Superpowers generate a detailed implementation plan, breaking down the development tasks into multiple atomic-level steps (each task controlled within 2 ~ 5 minutes).
 
 Here, AI automatically executed it, skipping a command~
 
@@ -101,17 +113,19 @@ Review the implementation plan document generated by AI. Each task includes:
 
 ![](https://pic.yupi.icu/1/image-20260116181910011.png)
 
-Wow, this isn't just an implementation plan document—it feels like most of the code is already written!
+Wow, this isn't just an implementation plan document; it feels like most of the code is already written!
 
 ![](https://pic.yupi.icu/1/image-20260116181959589.png)
 
+
+
 #### 4) Executing Tasks
 
-Run the `/superpowers:execute-plan` command. Superpowers executes in one of the following ways:
-- Subagent-Driven Development: Assigns a new subagent for each task, with two-stage reviews (specification compliance check + code quality check)
-- Batch Execution: Executes tasks in batches, pausing at key nodes for manual checks
+Run the `/superpowers:execute-plan` command. Superpowers will execute in one of the following ways:
+- Subagent-Driven Development: Assigns a new subagent for each task, undergoing a two-stage review (specification compliance check + code quality check)
+- Batch Execution: Executes tasks in batches, pausing at key nodes for manual inspection
 
-Here, AI directly asked me which method I preferred:
+Here, AI directly asked me which method I prefer:
 
 ![](https://pic.yupi.icu/1/image-20260116182128737.png)
 
@@ -123,56 +137,68 @@ Then AI started working:
 
 ![](https://pic.yupi.icu/1/image-20260116182445078.png)
 
+
+
 #### 5) Test-Driven Development
 
 During implementation, Superpowers enforces the `Red-Green-Refactor` process:
-- Write failing tests first
-- Run tests to confirm failure
-- Write minimal code to pass the test
-- Run tests to confirm success
+- First, write a failing test
+- Run the test to confirm failure
+- Write minimal code to make the test pass
+- Run the test to confirm it passes
 - Commit the code
 
 ![](https://pic.yupi.icu/1/image-20260116183728764.png)
 
-If code is written before tests, Superpowers deletes it, forcing you to write tests first.
+If it finds code written before the test, Superpowers will delete it, forcing you to write the test first.
+
+
 
 #### 6) Code Review
 
-After completing a batch of tasks, Superpowers automatically triggers code reviews, checking the code against the plan and reporting issues by severity. If critical issues are found, it halts further progress.
+After completing a batch of tasks, Superpowers automatically triggers a code review, checking the code against the plan and reporting issues by severity. If critical issues are found, it will block further progress.
 
 ![](https://pic.yupi.icu/1/image-20260116182947482.png)
 
+
+
 #### 7) Completing Development
 
-After all tasks are completed, Superpowers verifies that all tests pass:
+After all tasks are completed, Superpowers will verify that all tests pass:
 
 ![](https://pic.yupi.icu/1/image-20260116194339313.png)
 
-Then AI may provide options, such as merging into the main branch / creating a PR / keeping the branch / discarding changes.
+Then AI might provide several options, such as merging into the main branch / creating a PR / retaining the branch / discarding changes.
 
-If you're confident the feature works, you can use Superpowers' built-in skills to clean up the development branch.
+If you're sure the feature is fine, you can use Superpowers' built-in skills to clean up the development branch.
 
 ![](https://pic.yupi.icu/1/image-20260116194520921.png)
 
+
+
 ## Pros and Cons of Superpowers
 
-Following this "design-first, code-later" standardized process ensures higher code quality, but the trade-off is that it's significantly slower than letting AI generate code directly. It's really slow! This simple requirement took me over half an hour!!!
+Following this "design first, code later" standardized process ensures higher code quality, but the trade-off is that it's much slower than letting AI generate code directly. Really much slower! It took me over half an hour just for this requirement!!!
 
 ![](https://pic.yupi.icu/1/image-20260116183405162.png)
 
-If you're working on a large project requiring team collaboration, Superpowers is worth trying. The extra time spent upfront will pay off later. But if you're just writing a simple script or quickly validating an idea, using it is overkill—it's unnecessary.
+If you're working on a large project that requires team collaboration, you can try Superpowers. The extra time spent upfront will save time later. But if you're just writing a simple script or quickly validating an idea, using it is like using a sledgehammer to crack a nut—it's really unnecessary.
+
+
 
 ## Final Thoughts
 
 By now, you should have a basic understanding of Superpowers.
 
-**Superpowers enables AI to work like a professional programmer, but the trade-off is slower development speed.**
+**Superpowers makes AI work like a professional programmer, but the trade-off is slower development speed.**
 
-If you're working on a large project, need high-quality code, and require team collaboration, Superpowers is a great choice. But if you're working on a simple personal project, letting AI generate code directly is faster.
+If you're working on a large project that requires high-quality code and team collaboration, Superpowers is a great choice. But if you're just working on a simple personal project, letting AI generate code directly is faster.
 
-Choosing the right tool ensures efficiency.
+Choosing the right tool can make your work more efficient.
 
-We've explored various standardized development tools, and I hope you find the development approach that best suits you.
+By now, we've learned about various standardized development tools. I hope you can find the development method that suits you best.
+
+
 
 ## Recommended Resources
 
@@ -180,7 +206,7 @@ We've explored various standardized development tools, and I hope you find the d
 
 2) Programming Navigation Learning Circle: [Learning Paths, Programming Tutorials, Practical Projects, Job Hunting Guide, Q&A](https://www.codefather.cn)
 
-3) Programmer Interview Cheatsheet: [Internship/Campus Recruitment/Social Recruitment High-Frequency Topics, Enterprise Exam Analysis](https://www.mianshiya.com)
+3) Programmer Interview Cheat Sheet: [Internship/Campus Recruitment/Social Recruitment High-Frequency Exam Points, Enterprise Real Question Analysis](https://www.mianshiya.com)
 
 4) Programmer Resume Writing Tool: [Professional Templates, Rich Examples, Direct to Interview](https://www.laoyujianli.com)
 
