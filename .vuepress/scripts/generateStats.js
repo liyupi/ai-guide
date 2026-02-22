@@ -140,7 +140,8 @@ function generateHTML(stats) {
   const categoryChinese = JSON.stringify(categories.map(([, v]) => v.chineseChars));
   const sizeLabels = JSON.stringify(stats.sizeDistribution.map((d) => d.label));
   const sizeCounts = JSON.stringify(stats.sizeDistribution.map((d) => d.count));
-  const topLabels = JSON.stringify(stats.topFiles.map((f) => f.title.length > 18 ? f.title.slice(0, 18) + "…" : f.title));
+  const MAX_CHART_TITLE_LENGTH = 18;
+  const topLabels = JSON.stringify(stats.topFiles.map((f) => f.title.length > MAX_CHART_TITLE_LENGTH ? f.title.slice(0, MAX_CHART_TITLE_LENGTH) + "…" : f.title));
   const topChars = JSON.stringify(stats.topFiles.map((f) => f.chineseChars));
   const subLabels = JSON.stringify(subcategories.map(([k]) => k));
   const subCounts = JSON.stringify(subcategories.map(([, v]) => v.fileCount));
