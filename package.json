@@ -5,6 +5,7 @@
     "generate:sidebar": "node ./.vuepress/scripts/generateSidebar.js",
     "generate:readme": "node ./.vuepress/scripts/genReadme.js",
     "getMdNumber": "node ./.vuepress/scripts/getMdNumber.js",
+    "generate:stats": "node ./.vuepress/scripts/generateStats.js",
     "docs:dev": "vuepress dev .",
     "pre-docs:build": "npm run generate:sidebar ./AI && npm run generate:readme ./AI",
     "docs:build": "vuepress build .",
