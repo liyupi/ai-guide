@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>鱼皮 AI 知识库 - 数据统计</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: #f0f2f5; color: #333; }
+  .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; padding: 40px 20px; text-align: center; }
+  .header h1 { font-size: 2em; margin-bottom: 8px; }
+  .header p { opacity: 0.9; font-size: 1.1em; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin: 24px 0; }
+  .stat-card { background: #fff; border-radius: 12px; padding: 24px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: transform 0.2s; }
+  .stat-card:hover { transform: translateY(-4px); box-shadow: 0 6px 20px rgba(0,0,0,0.12); }
+  .stat-card .number { font-size: 2em; font-weight: 700; color: #667eea; }
+  .stat-card .label { font-size: 0.9em; color: #666; margin-top: 4px; }
+  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 20px; margin: 20px 0; }
+  .chart-box { background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  .chart-box h3 { margin-bottom: 16px; color: #444; font-size: 1.1em; }
+  .chart-box canvas { width: 100% !important; }
+  .table-box { background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); margin: 20px 0; overflow-x: auto; }
+  .table-box h3 { margin-bottom: 16px; color: #444; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #eee; }
+  th { background: #f8f9fa; color: #555; font-weight: 600; }
+  tr:hover { background: #f8f9fe; }
+  .footer { text-align: center; padding: 24px; color: #999; font-size: 0.85em; }
+  @media (max-width: 600px) {
+    .charts { grid-template-columns: 1fr; }
+    .header h1 { font-size: 1.5em; }
+    .stat-card .number { font-size: 1.5em; }
+  }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>📊 鱼皮 AI 知识库 · 数据统计</h1>
+  <p>自动分析仓库内容，可视化展示教程统计数据</p>
+</div>
+<div class="container">
+  <div class="summary">
+    <div class="stat-card"><div class="number">297</div><div class="label">📄 文档总数</div></div>
+    <div class="stat-card"><div class="number">664,156</div><div class="label">✍️ 中文字数</div></div>
+    <div class="stat-card"><div class="number">87,184</div><div class="label">🔤 英文单词</div></div>
+    <div class="stat-card"><div class="number">57,693</div><div class="label">📝 总行数</div></div>
+    <div class="stat-card"><div class="number">2894 KB</div><div class="label">💾 内容体积</div></div>
+    <div class="stat-card"><div class="number">4</div><div class="label">📂 内容分类</div></div>
+  </div>
+
+  <div class="charts">
+    <div class="chart-box">
+      <h3>📁 各分类文档数量</h3>
+      <canvas id="categoryFileChart"></canvas>
+    </div>
+    <div class="chart-box">
+      <h3>✍️ 各分类中文字数</h3>
+      <canvas id="categoryCharsChart"></canvas>
+    </div>
+    <div class="chart-box">
+      <h3>📏 文件大小分布</h3>
+      <canvas id="sizeChart"></canvas>
+    </div>
+    <div class="chart-box">
+      <h3>📂 子分类文档数量 (Top 20)</h3>
+      <canvas id="subCategoryChart"></canvas>
+    </div>
+  </div>
+
+  <div class="table-box">
+    <h3>🏆 内容最丰富的文档 (Top 15)</h3>
+    <table>
+      <thead><tr><th>#</th><th>标题</th><th>分类</th><th>中文字数</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Cursor + LangChain4j - AI 编程助手项目实战</td><td>Vibe Coding 零基础教程</td><td>7,532</td></tr>
+        <tr><td>2</td><td>DeepSeek技术解读：从V3到R1的MoE架构创新</td><td>AI</td><td>15,198</td></tr>
+        <tr><td>3</td><td>优质 AI 编程扩展推荐</td><td>Vibe Coding 零基础教程</td><td>9,768</td></tr>
+        <tr><td>4</td><td>2025 年 11 月 AI 资讯汇总</td><td>AI</td><td>8,958</td></tr>
+        <tr><td>5</td><td>DeepSeek最强专业拆解：清交复教授超硬核解读</td><td>AI</td><td>15,700</td></tr>
+        <tr><td>6</td><td>Vibe Coding 概念大全</td><td>Vibe Coding 零基础教程</td><td>10,013</td></tr>
+        <tr><td>7</td><td>炸裂！Spring AI 1.0 正式发布，让 Java 再次伟大！</td><td>AI</td><td>3,048</td></tr>
+        <tr><td>8</td><td>Model Context Protocol，看这一篇就够了</td><td>AI</td><td>4,120</td></tr>
+        <tr><td>9</td><td>AI</td><td>AI</td><td>6,534</td></tr>
+        <tr><td>10</td><td>Vibe Coding 网站美化技巧</td><td>Vibe Coding 零基础教程</td><td>4,557</td></tr>
+        <tr><td>11</td><td>GLM-5 + OpenClaw：打造你的 AI 伴侣</td><td>Vibe Coding 零基础教程</td><td>6,529</td></tr>
+        <tr><td>12</td><td>Vibe Coding 效率提升技巧</td><td>Vibe Coding 零基础教程</td><td>5,277</td></tr>
+        <tr><td>13</td><td>Agent Skills：通用 AI 技能库</td><td>Vibe Coding 零基础教程</td><td>4,165</td></tr>
+        <tr><td>14</td><td>AI 辅助工具集</td><td>Vibe Coding 零基础教程</td><td>5,334</td></tr>
+        <tr><td>15</td><td>Vibe Coding 项目灵感大全</td><td>Vibe Coding 零基础教程</td><td>9,683</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-box">
+    <h3>📊 各分类详细数据</h3>
+    <table>
+      <thead><tr><th>分类</th><th>文档数</th><th>中文字数</th><th>总行数</th><th>体积</th></tr></thead>
+      <tbody>
+        <tr><td>AI</td><td>190</td><td>305,919</td><td>19,930</td><td>1342.2 KB</td></tr>
+        <tr><td>Vibe Coding 零基础教程</td><td>91</td><td>329,547</td><td>35,130</td><td>1423.7 KB</td></tr>
+        <tr><td>产品服务</td><td>14</td><td>26,046</td><td>2,274</td><td>110.3 KB</td></tr>
+        <tr><td>根目录</td><td>2</td><td>2,644</td><td>359</td><td>17.6 KB</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="footer">
+  <p>数据自动生成于 2026/2/22 · <a href="https://github.com/liyupi/ai-guide" target="_blank">GitHub</a></p>
+</div>
+
+<script>
+const COLORS = ['#667eea','#764ba2','#f093fb','#f5576c','#4facfe','#00f2fe','#43e97b','#fa709a','#fee140','#30cfd0','#a18cd1','#fbc2eb','#ff9a9e','#fad0c4','#ffecd2'];
+
+new Chart(document.getElementById('categoryFileChart'), {
+  type: 'pie',
+  data: {
+    labels: ["AI","Vibe Coding 零基础教程","产品服务","根目录"],
+    datasets: [{ data: [190,91,14,2], backgroundColor: COLORS }]
+  },
+  options: { responsive: true, plugins: { legend: { position: 'right' } } }
+});
+
+new Chart(document.getElementById('categoryCharsChart'), {
+  type: 'bar',
+  data: {
+    labels: ["AI","Vibe Coding 零基础教程","产品服务","根目录"],
+    datasets: [{ label: '中文字数', data: [305919,329547,26046,2644], backgroundColor: '#667eea' }]
+  },
+  options: { responsive: true, indexAxis: 'y', plugins: { legend: { display: false } } }
+});
+
+new Chart(document.getElementById('sizeChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ["< 1KB","1-5KB","5-10KB","10-50KB","> 50KB"],
+    datasets: [{ data: [8,93,94,98,4], backgroundColor: COLORS.slice(0, 5) }]
+  },
+  options: { responsive: true, plugins: { legend: { position: 'right' } } }
+});
+
+new Chart(document.getElementById('subCategoryChart'), {
+  type: 'bar',
+  data: {
+    labels: ["AI / AI行业资讯","AI / AI应用场景","Vibe Coding 零基础教程 / 20 项目实战","Vibe Coding 零基础教程 / 10 编程工具","AI / DeepSeek使用指南","Vibe Coding 零基础教程 / 50 产品变现","Vibe Coding 零基础教程 / 40 编程学习","Vibe Coding 零基础教程 / 30 经验技巧","AI / DeepSeek技术解析","AI / AI项目教程","产品服务 / 产品","AI / DeepSeek资源汇总","AI / 鱼皮的 AI 指南","AI / 关于DeepSeek","产品服务 / 编程学习"],
+    datasets: [{ label: '文档数', data: [106,34,22,20,17,16,14,13,12,6,6,5,5,4,2], backgroundColor: '#764ba2' }]
+  },
+  options: { responsive: true, indexAxis: 'y', plugins: { legend: { display: false } } }
+});
+</script>
+</body>
+</html>
