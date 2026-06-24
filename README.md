@@ -126,7 +126,7 @@
 |:---|:---|
 | 视频创作 | [用 AI 做千万播放的爆款视频！](https://ai.codefather.cn/course/1935993640975368194/section/1939612684927811586?type=) ｜ [1 分钟做出动物奥运会视频！](https://ai.codefather.cn/course/1935993640975368194/section/1939612504572739586?type=) |
 | 办公效率 | [AI 王炸组合，自动生成 PPT](https://ai.codefather.cn/course/1935993640975368194/section/1936010134610280450?type=) ｜ [干掉 Draw.io 的画图神器](https://ai.codefather.cn/library/2010961061171294210) |
-| 知识管理 | [轻松搭建 DeepSeek 个人知识库](https://ai.codefather.cn/course/1935993640975368194/section/1939982669017694209?type=) ｜ [让 AI 帮我读文档](https://ai.codefather.cn/library/2010957959428960257) |
+| 知识管理 | [轻松搭建 DeepSeek 个人知识库](https://ai.codefather.cn/course/1935993640975368194/section/1939982669017694209?type=) ｜ [让 AI 帮我读文档](https://ai.codefather.cn/library/2010957959428960257) ｜ [用 Remio 搭建本地 AI 个人知识库](AI/AI应用场景/AI%20+%20办公效率/用%20Remio%20搭建本地%20AI%20个人知识库.md) |
 | 求职提升 | [用 AI 润色简历](https://ai.codefather.cn/course/1935993640975368194/section/1939980585996304385?type=) ｜ [3 个免费 AI 文章检测工具](https://ai.codefather.cn/library/2010963301307117569) |
 
 

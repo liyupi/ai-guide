@@ -27,6 +27,8 @@
 ## AI + 办公效率 
 [DeepSeek R1 + 个人知识库，直接起飞！](AI%20+%20办公效率/DeepSeek%20R1%20+%20个人知识库，直接起飞！.md)
 
+[用 Remio 搭建本地 AI 个人知识库](AI%20+%20办公效率/用%20Remio%20搭建本地%20AI%20个人知识库.md)
+
 [DeepSeek嵌入到Excel，提升10倍工作效率，太牛了！](AI%20+%20办公效率/DeepSeek嵌入到Excel，提升10倍工作效率，太牛了！.md)
 
 [DeepSeek配合KIMI，自动生成PPT，感觉自己要失业了！](AI%20+%20办公效率/DeepSeek配合KIMI，自动生成PPT，感觉自己要失业了！.md)
@@ -54,4 +56,3 @@
 [教你用DeepSeek+Clien，从0到1开发一个APP](AI%20+%20编程开发/教你用DeepSeek+Clien，从0到1开发一个APP.md)
 
 >  你全面的 AI 知识库，一网打尽最新 AI 资讯，都在 [https://ai.codefather.cn](https://ai.codefather.cn)
-
