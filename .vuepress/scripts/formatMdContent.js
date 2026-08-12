@@ -8,7 +8,7 @@ const path = require("path");
 
 function formatMdContent(content, filePath) {
   // 检查内容是否以一级或二级标题开始
-  const firstLine = content.trim().split("")[0];
+  const firstLine = content.trim().split(/\r?\n/, 1)[0];
   const hasTitle = /^#\s|^##\s/.test(firstLine);
   // 获取文件名（不含扩展名）
   const fileName = path.basename(filePath, path.extname(filePath));
