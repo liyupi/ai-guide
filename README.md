@@ -204,7 +204,7 @@ ai-guide/
 
 如果这个项目对你有帮助，请给一个 **Star** ⭐️ 支持一下！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=liyupi/ai-guide&type=Date)](https://star-history.com/#liyupi/ai-guide&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=liyupi/ai-guide&type=Date)](https://star-history.dera.page/#liyupi/ai-guide&Date)
 
 
 
