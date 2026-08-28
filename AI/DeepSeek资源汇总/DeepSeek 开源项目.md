@@ -30,3 +30,4 @@
 | simpleRL-reason          | https://github.com/hkust-nlp/simpleRL-reason                | 港科大团队复现DeepSeek R1-Zero和R1的项目。         |
 | DeepSeek-Free            | https://github.com/deepseek-free/deepseek-free              | 提供DeepSeek部署教程和免费API接口。                |
 | Unlock-DeepSeek          | https://github.com/datawhalechina/unlock-deepseek           | 面向AI研究爱好者的DeepSeek系列工作解读和复现。     |
+| DeepSeek Harness Handbook | https://github.com/sandbaseai/deepseek-harness-handbook | 面向 Agent/runtime 的 DeepSeek Harness 社区手册，涵盖插件、MCP、工具执行、Session、沙箱、审批、评估与故障排查，并提供多语言文档。 |
