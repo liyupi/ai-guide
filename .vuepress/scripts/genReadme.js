@@ -31,6 +31,24 @@ function generateContent(directory, dirName) {
     return statB.birthtime.getTime() - statA.birthtime.getTime();
   });
 
+  // 先处理当前目录的 Markdown 文件，再处理子目录
+  const files = fs
+    .readdirSync(directory, { withFileTypes: true })
+    .filter((item) => item.isFile() && path.extname(item.name) === ".md")
+    .map((item) => path.join(directory, item.name))
+    .sort((a, b) => {
+      const statA = fs.statSync(a);
+      const statB = fs.statSync(b);
+      return statB.birthtime.getTime() - statA.birthtime.getTime();
+    });
+
+  for (let i = 0; i < Math.min(files.length, 100); i++) {
+    const file = files[i];
+    if (path.basename(file).toLowerCase() === "readme.md") continue;
+    const relativePath = path.basename(file)?.replaceAll(" ", "%20");
+    content += `[${path.basename(file, ".md")}](${relativePath})\n\n`;
+  }
+
   if (subDirs.length > 0) {
     // 循环处理每个一级子目录
     for (const subDir of subDirs) {
@@ -63,20 +81,6 @@ function generateContent(directory, dirName) {
         const relativePath = path.relative(directory, file)?.replaceAll(" ", "%20");
         content += `[${path.basename(file, ".md")}](${relativePath})\n\n`;
       }
-    }
-  } else {
-    // 如果没有子目录，直接处理当前目录下的 Markdown 文件
-    const files = getFilesInDirectory(directory).sort((a, b) => {
-      const statA = fs.statSync(a);
-      const statB = fs.statSync(b);
-      return statB.birthtime.getTime() - statA.birthtime.getTime();
-    });
-
-    for (let i = 0; i < Math.min(files.length, 100); i++) {
-      const file = files[i];
-      if (path.basename(file).toLowerCase() === "readme.md") continue;
-      const relativePath = path.basename(file)?.replaceAll(" ", "%20");
-      content += `[${path.basename(file, ".md")}](${relativePath})\n\n`;
     }
   }
   if (subDirs.length > 0) {
