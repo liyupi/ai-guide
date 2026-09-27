@@ -103,7 +103,11 @@ function getFilesInDirectory(directory) {
     if (item.isDirectory()) {
       // 递归获取子目录中的文件
       files = files.concat(getFilesInDirectory(fullPath));
-    } else if (item.isFile() && path.extname(item.name) === ".md") {
+    } else if (
+      item.isFile() &&
+      path.extname(item.name) === ".md" &&
+      item.name.toLowerCase() !== "readme.md"
+    ) {
       files.push(fullPath);
     }
   }
