@@ -8,6 +8,9 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    environment: production
     steps:
       - name: 检出代码
         uses: actions/checkout@v3
@@ -18,7 +21,7 @@ jobs:
           node-version: "16" # 根据你的项目需求选择版本
 
       - name: 安装依赖
-        run: npm install
+        run: npm ci --ignore-scripts
 
       - name: 缓存依赖
         uses: actions/cache@v3
@@ -30,6 +33,9 @@ jobs:
 
       - name: 构建
         run: npm run docs:build
+
+      - name: 验证生成文件一致性
+        run: git diff --exit-code
 
       # 添加这个步骤以设置兼容的 Python 版本
       - name: 设置 Python 3.10
@@ -50,7 +56,7 @@ jobs:
 
       - name: 安装 nodemailer
         if: success() # 仅在上述步骤成功时执行
-        run: npm install nodemailer
+        run: npm install nodemailer --ignore-scripts
 
       - name: 发送邮件通知
         if: success() # 仅在上述步骤成功时执行
