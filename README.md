@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://pic.yupi.icu/1/vibe%252520coding%252520show%2525E5%2525A4%2525A7-20260113165845170.jpeg" alt="Vibe Coding" width="600"/>
+  <img src="./image/readme/banner.jpg" alt="Vibe Coding" width="600"/>
 </p>
 
 
@@ -41,7 +41,7 @@
 
 臭不要脸一下，我敢说这套免费教程吊打 90% 的付费 Vibe Coding 内容。
 
-![](https://pic.yupi.icu/1/%25E9%25B1%25BC%25E7%259A%25AE%25E7%259A%2584AI%25E5%25AF%25BC%25E8%2588%25AA-AI%25E5%25B7%25A5%25E5%2585%25B7%25E7%2594%25A8%25E6%25B3%2595%25E5%25A4%25A7%25E5%2585%25A8.png)
+![](./image/readme/ai-nav.jpg)
 
 
 
@@ -57,7 +57,7 @@
 - 编程学习：为想深入学习编程的同学准备的进阶内容，包括学习路线、知识百科、资源大全、MCP 开发、面试刷题等
 - 资源宝库：汇集各种实用资源，包括工具大全、提示词模板、AI 概念大全、Vibe Coding 常见问题等
 
-![鱼皮的 Vibe Coding 零基础教程大纲](https://pic.yupi.icu/1/%E9%B1%BC%E7%9A%AE%E7%9A%84%20AI%20%E5%AF%BC%E8%88%AA-16%E6%AF%949%E5%A4%A7%E7%BA%B2_%E5%89%AF%E6%9C%AC.jpg)
+![鱼皮的 Vibe Coding 零基础教程大纲](./image/readme/outline.jpg)
 
 
 
@@ -67,7 +67,7 @@
 
 > 课程地址：https://ai.codefather.cn/course/2087008226460565505
 
-![](https://pic.yupi.icu/1/image-20260528190958881.png)
+![](./image/readme/video-course.jpg)
 
 
 
@@ -179,7 +179,7 @@ ai-guide/
 
 欢迎加入我们的 AI 交流群，关注公众号：**【程序员鱼皮】**，获取更多最一手 AI 资讯，一起探讨 AI 应用实践。
 
-![鱼皮的交流群大全](https://pic.yupi.icu/1/%E9%B1%BC%E7%9A%AE%E7%9A%84%E4%BA%A4%E6%B5%81%E7%BE%A4%E5%A4%A7%E5%85%A8.png)
+![鱼皮的交流群大全](./image/readme/groups.png)
 
 
 
