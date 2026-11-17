@@ -83,5 +83,5 @@ OK，常用 AI 工具分享完了，看到这里，你应该就超过了 80% 的
 #### 文档翻译与润色 - HumanPen
 
 - 官网：[https://humanpen.net/](https://humanpen.net/)
-- 简介：AI 文档翻译（支持 12 种目标语言，PDF/DOCX/PPTX/XLSX/EPUB/HTML/TXT 保留排版）、文档级润色 Humanize（DOCX/PPTX/TXT）、精简 Condense（DOCX）与引用格式校正（DOCX）。
+- 简介：AI 文档翻译（支持 12 种目标语言，PDF/DOCX/PPTX/XLSX/EPUB/HTML/TXT 尽量保留排版）、文档级润色 Humanize（DOCX/PPTX/TXT）、精简 Condense（DOCX）与引用格式校正（DOCX）。
 - 计费：商业积分制服务，注册赠送 100 积分。
