@@ -76,12 +76,13 @@
 
 值得一提的是，现在有些 AI 大模型比如 [Gemini](https://gemini.google.com/) 已经原生支持多模态能力，可以直接生成图文混排的文章，再发展发展估计能直接根据代码生成有图有文的技术方案了吧。
 
-------
-
-OK，常用 AI 工具分享完了，看到这里，你应该就超过了 80% 的同学。
-
 #### 文档翻译与润色 - HumanPen
 
 - 官网：[https://humanpen.net/](https://humanpen.net/)
 - 简介：AI 文档翻译（支持 12 种目标语言，PDF/DOCX/PPTX/XLSX/EPUB/HTML/TXT 尽量保留排版）、文档级润色 Humanize（DOCX/PPTX/TXT）、精简 Condense（DOCX）与引用格式校正（DOCX）。
 - 计费：商业积分制服务，注册赠送 100 积分。
+
+------
+
+OK，常用 AI 工具分享完了，看到这里，你应该就超过了 80% 的同学。
+
