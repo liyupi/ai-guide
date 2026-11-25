@@ -63,7 +63,7 @@
 
 ### 什么是上下文窗口？
 
-回答：上下文窗口是指 AI 模型一次能 “记住” 的内容量，一般用 Token 来衡量。比如 Claude Sonnet 的上下文窗口是 200K Token，大约相当于 15 万个中文字。上下文窗口越大，AI 能处理的代码量就越多，能记住的对话历史就越长。如果你的项目代码很多，选择上下文窗口大的模型会更合适，比如 Claude 全系（Opus 5.5、Fable 5.1、Sonnet 5）、Gemini 3.8 Flash、DeepSeek V4.1 Flash 和 Kimi K3 都支持 1M Token，GPT-6 系列更是有 105 万。不过要注意，窗口大不等于可以随便塞，有些模型（比如 GPT-6 Astra 和 Sol）超过一定输入量之后单价会跳档变贵。
+回答：上下文窗口是指 AI 模型一次能 “记住” 的内容量，一般用 Token 来衡量。上下文窗口越大，AI 能处理的代码量就越多，能记住的对话历史就越长。如今主流第一梯队模型基本都已经标配了 1M Token（约 75 万中文字）的超大窗口，比如 Claude 5.5 / Fable 5.2、Gemini 4 全系、DeepSeek V4.1 Flash、Qwen4-Max、Kimi K3.1 Pro 都支持 1M Token，GPT-6.2 系列更是有 105 万。不过要注意，窗口大不等于可以随便塞，部分模型超过一定输入量之后单价会跳档变贵，而且上下文太长也容易导致注意力分散。
 
 
 
@@ -93,10 +93,10 @@
 
 回答：根据任务复杂度和预算选择。
 
-- 对于简单任务，比如只是开发个单页面应用或者演示网站，用便宜的模型（DeepSeek V4.1 Flash、GLM-5.3-Flash、Gemini Flash）
-- 对于复杂任务，比如开发包含完整前后端的全栈项目或系统，用强大的模型（Claude Opus 5、Claude Fable 5.1、GPT-6 Astra）
-- 如果做前端 UI，Claude 顶级模型和 GPT-6 Astra 的表现最好
-- 如果预算有限，国产模型（DeepSeek、通义千问、智谱 GLM）性价比很高
+- 对于简单任务，比如只是开发个单页面应用或者演示网站，用便宜的模型（DeepSeek V4.1 Flash、GLM-5.3-Flash、Gemini 4 Hydrogen）
+- 对于复杂任务，比如开发包含完整前后端的全栈项目或系统，用强大的模型（Claude Opus 5.5、Claude Fable 5.2、GPT-6.2 Sol / Astra）
+- 如果做前端 UI，Claude 顶级模型（Opus 5.5 / Fable 5.2）表现最好，国产模型中需求写细时 GLM-5.4 和 Kimi K3.1 Pro 也很稳
+- 如果预算有限，国产模型（DeepSeek、通义千问 Qwen4-Max、智谱 GLM）性价比很高
 - 如果希望 AI 写完前端能自己截图验收，选原生多模态的模型，别选纯文本模型
 
 如果不确定用什么模型，可以用 Auto 模式让工具自动选择，或者先用便宜的模型试试，不行再换更强的模型。

@@ -51,12 +51,12 @@
 
 - 基础必读：帮你快速理解 Vibe Coding 并上手实践，10 分钟做出第一个作品
 - 编程工具：帮你选择适合自己的 AI 编程工具，覆盖 AI 模型选择、AI 零代码平台、AI 智能体平台、AI 代码编辑器、AI 命令行工具、IDE 插件等全品类，Cursor、Codex、Claude Code、DeepSeek Harness 等主流工具还有专属的教程合集
-- 模型动态：每当有重磅模型发布，第一时间做实测和横评，覆盖 GPT-6、Claude Opus 5.5、Gemini 4 Argon、Kimi K3、DeepSeek V4.1 Flash 等热门模型，帮你快速判断值不值得切换
-- 项目实战：近 30 套原创项目教程，按 AI 创意应用、AI 实用工具、AI 智能体和平台、AI 跨端应用 4 大类整理，覆盖网站、小程序、桌面应用、浏览器插件、命令行工具等各种形态
+- 模型动态：每当有重磅模型发布，第一时间做实测和横评，覆盖 GPT-6.2、Claude Fable 5.2 / Opus 5.5、Gemini 4 Carbon / Argon、GLM-5.4、Kimi K3、DeepSeek V4.1 Flash、GPT Images 2.6 等热门模型，帮你快速判断值不值得切换
+- 项目实战：30+ 套原创项目教程，按 AI 创意应用、AI 实用工具、AI 智能体和平台、AI 跨端应用 4 大类整理，覆盖网站、小程序、桌面应用、浏览器插件、命令行工具等各种形态
 - 经验技巧：帮你提升 Vibe Coding 效率和质量，包括核心心法、对话工程、上下文管理、幻觉处理、代码质量保障等，还有 Harness Engineering、Loop Engineering 等前沿方法论，以及 Anthropic 等大厂官方的 AI 编程经验
-- 产品变现：教你如何让产品产生价值，涵盖需求分析、技术选型、架构设计、盈利模式、SEO 和 GEO 优化、自媒体运营等
+- 产品变现：教你如何让产品产生价值，涵盖需求分析、技术选型、架构设计、盈利模式、SEO 和 GEO 优化、自媒体运营、产品出海工作流、AI 内容创作工作流，以及 memecub、VibeFather 等真实出海案例复盘
 - 编程学习：为想深入学习编程的同学准备的进阶内容，包括学习路线、知识百科、资源大全、MCP 开发、面试刷题等
-- 资源宝库：汇集各种实用资源，包括工具大全、提示词模板、收录 80 多个核心概念的 AI 编程概念大全、Vibe Coding 常见问题等
+- 资源宝库：汇集各种实用资源，包括工具大全、提示词模板、收录 80 多个核心概念以及 AI Agent 进化史、Super-agent、Personal Agent 等深度解读的 AI 编程概念大全、Vibe Coding 常见问题等
 
 ![](https://pic.yupi.icu/1/%E9%B1%BC%E7%9A%AE%E7%9A%84%20AI%20%E5%AF%BC%E8%88%AA-3%E6%AF%944%E5%A4%A7%E7%BA%B2_%E5%89%AF%E6%9C%AC.jpg)
 

@@ -58,7 +58,7 @@ AI 写论文、做 PPT、生成图片、编代码、做视频…… 无论你想
 
 ![](https://pic.yupi.icu/yuyi/image-20260320162748802.png)
 
-这里还有各种主流 AI 工具的保姆级实战教程，可以直接写进简历的 [企业级 AI 项目课程](https://www.codefather.cn/course?sortField=priority&tags%5B%5D=AI%E9%A1%B9%E7%9B%AE)，以及从入门到进阶的 AI 知识百科。碎片化时代，我们帮你做系统学习的那个人。
+这里还有各种主流 AI 工具的保姆级实战教程、可以直接写进简历的 [企业级 AI 项目课程](https://www.codefather.cn/course?sortField=priority&tags%5B%5D=AI%E9%A1%B9%E7%9B%AE)、编程导航最新的 [AI 大模型应用开发学习路线](https://www.codefather.cn/course/1789189862986850306/section/1912024009574629377)，以及从入门到进阶的 AI 知识百科。碎片化时代，我们帮你做系统学习的那个人。
 
 ![](https://pic.yupi.icu/yuyi/image-20260320153748763.png)
 
@@ -117,6 +117,11 @@ AI 高速发展，几乎每天都有 “炸裂” 的消息。
 如果你只想快速搞清楚「现在有哪些模型、谁最强、谁最划算」，还可以看看我用 AI 做的 [AI 大模型世界](https://www.bilibili.com/toy/ai-model-world) 网站。几百个主流模型的能力排名、价格、发布时间线和几十个排行榜都在里面，数据来自第三方评测、自动更新，免费免登录。
 
 ![AI 大模型世界排行榜](https://pic.yupi.icu/1/aimodelworld-0926-leaderboard-b9cedcc8.png)
+
+此外，再推荐两个我自己用 Vibe Coding 做出来的实用工具站点，都支持 Skill 和 MCP 直接接入主流 AI 编程工具：
+
+- [VibeFather](https://vibefather.ai)（[开源模板库](https://github.com/liyupi/awesome-vibe-coding-websites)）：专为 Vibe Coding 打造的 AI 网站模板库，收录了 500 多个由不同模型从零生成的网站案例，每个模板都附带在线 Demo、完整提示词和设计风格文档，既能一键照着做同款，也能横向对比不同模型的前端实力。
+- [memecub](https://memecub.com)（[开源接入工具](https://github.com/liyupi/memecub)）：面向人和 AI 的中英文表情包搜索引擎，支持按情绪找图和文章 AI 自动配图，写文档、做自媒体内容时非常顺手。
 
 
 

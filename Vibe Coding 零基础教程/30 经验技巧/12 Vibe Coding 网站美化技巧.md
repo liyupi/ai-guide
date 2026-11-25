@@ -146,6 +146,7 @@ AI 会自己去看那个网站，然后学着做。
 
 推荐几个不错的网站模板资源：
 
+- [VibeFather](https://vibefather.ai)（[开源提示词库](https://github.com/liyupi/awesome-vibe-coding-websites)）：鱼皮专门为 Vibe Coding 打造的 AI 网站模板库，收录了 500 多个 AI 从零生成的真实网站，涵盖各行业官网、网页版 PPT、互动科普和 3D 小游戏，每个模板都附带完整提示词、设计规范文档和在线 Demo，可以直接复制设计规范给 AI 改界面风格，或者下载源码二次开发
 - [HTML5 UP](https://html5up.net/)：免费的响应式网站合集，极简风格
 - [WordPress 官方主题库](https://cn.wordpress.org/themes/)：1 万多个免费主题，啥类型都有
 - [Start Bootstrap](https://startbootstrap.com/)：Bootstrap 生态的免费网站模板库
@@ -516,6 +517,8 @@ uipro init --ai cursor
 ![](https://pic.yupi.icu/1/1769307819333-fef63881-90b7-4248-8ca7-35354f8a7a7a-20260127165431745-20260128201604458.png)
 
 AI 不需要把所有规则都背下来，而是用到哪个查哪个，这就是 Agent Skills 的精髓。
+
+另外，如果你想让 AI 在动手写页面前直接搜索成熟的高颜值网站模板，也可以装上我开源的 **VibeFather Skill**（执行 `npx skills add liyupi/awesome-vibe-coding-websites`），这样 AI 会自动从 [VibeFather](https://vibefather.ai) 的 500 多个真实案例里挑选合适的模板、读取对应的设计文档并照着生成同款网站，既省 tokens 又能稳定摆脱 AI 味儿。
 
 
 
