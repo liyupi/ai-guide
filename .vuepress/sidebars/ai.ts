@@ -285,6 +285,7 @@ export default [
         "title": "AI + 办公效率",
         "collapsable": true,
         "children": [
+          "AI应用场景/AI + 办公效率/让 AI 助手真正接入企业业务：从 Excel 到金蝶生产订单的一次实践",
           "AI应用场景/AI + 办公效率/如何用DeepSeek更高效地工作：10个实用技巧",
           "AI应用场景/AI + 办公效率/手把手教你在word中接入deepseek，秒生文档材料",
           "AI应用场景/AI + 办公效率/法律人保姆级deepseek使用指南（附指令版）",
